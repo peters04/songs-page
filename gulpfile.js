@@ -11,7 +11,7 @@ const buildCSS = () => {
       overrideBrowserslist: ['last 2 versions'],
       cascade: false
     }))
-    // .pipe(cleanCSS())
+    .pipe(cleanCSS())
     .pipe(gulp.dest('./dist'));
 }
 
@@ -24,6 +24,11 @@ const minifyCss = () => {
 const htmlCopy = () => {
   return gulp.src('./src/*html')
     .pipe(gulp.dest('./dist'));
+}
+
+const imgCopy = () => {
+  return gulp.src('./src/img/*jpg')
+    .pipe(gulp.dest('./dist/img'));
 }
 
 const style = () => {
@@ -47,5 +52,6 @@ const serve = () => {
 exports.serve = serve;
 exports.build = gulp.series(
   buildCSS,
-  htmlCopy
+  htmlCopy,
+  imgCopy
 );
