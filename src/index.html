@@ -18,60 +18,72 @@
   <!-- Main -->
   <main class="l-main">
     <article class="l-cards">
-      <div class="c-card">
-        <div class="c-card__overlayer">
-          <section class="c-card__content">
-            <h3 class="c-card__song-title">40:1</h3>
-            <h4 class="c-card__artist">Sabaton</h4>
-          </section>
+      <a href="pages/sabaton_401.html">
+        <div class="c-card">
+          <div class="c-card__overlayer c-card__overlayer--first">
+            <section class="c-card__content">
+              <h3 class="c-card__song-title">40:1</h3>
+              <h4 class="c-card__artist">Sabaton</h4>
+            </section>
+          </div>
+          <img src="img/art-of-war.jpg" alt="40:1 Sabaton" class="c-card__album-cover">
         </div>
-        <img src="img/art-of-war.jpg" alt="40:1 Sabaton" class="c-card__album-cover">
-      </div>
-      <div class="c-card">
-        <div class="c-card__overlayer">
-          <section class="c-card__content">
-            <h3 class="c-card__song-title">The Day That Never Comes</h3>
-            <h4 class="c-card__artist">Metallica</h4>
-          </section>
+      </a>
+      <a href="pages/metallica_the-day-that-never-comes.html">
+        <div class="c-card">
+          <div class="c-card__overlayer c-card__overlayer--second">
+            <section class="c-card__content">
+              <h3 class="c-card__song-title">The Day That Never Comes</h3>
+              <h4 class="c-card__artist">Metallica</h4>
+            </section>
+          </div>
+          <img src="img/death-magnetic.jpg" alt="The Day That Never Comes Metallica" class="c-card__album-cover">
         </div>
-        <img src="img/death-magnetic.jpg" alt="The Day That Never Comes Metallica" class="c-card__album-cover">
-      </div>
-      <div class="c-card">
-        <div class="c-card__overlayer">
-          <section class="c-card__content">
-            <h3 class="c-card__song-title">All Out Life</h3>
-            <h4 class="c-card__artist">Slipknot</h4>
-          </section>
+      </a>
+      <a href="pages/slipknot_psychosocial.html">
+        <div class="c-card">
+          <div class="c-card__overlayer c-card__overlayer--third">
+            <section class="c-card__content">
+              <h3 class="c-card__song-title">Psychosocial</h3>
+              <h4 class="c-card__artist">Slipknot</h4>
+            </section>
+          </div>
+          <img src="img/all-hope-is-gone.jpg" alt="Psychosocial Slipknot" class="c-card__album-cover">
         </div>
-        <img src="img/we-are-not-your-kind.jpg" alt="All Out Life Slipknot" class="c-card__album-cover">
-      </div>
-      <div class="c-card">
-        <div class="c-card__overlayer">
-          <section class="c-card__content">
-            <h3 class="c-card__song-title">Northern Downpour</h3>
-            <h4 class="c-card__artist">Panic! At The Disco</h4>
-          </section>
+      </a>
+      <a href="pages/p!atd_northern-downpour.html">
+        <div class="c-card">
+          <div class="c-card__overlayer c-card__overlayer--fourth">
+            <section class="c-card__content">
+              <h3 class="c-card__song-title">Northern Downpour</h3>
+              <h4 class="c-card__artist">Panic! At The Disco</h4>
+            </section>
+          </div>
+          <img src="img/pretty-odd.jpg" alt="P!ATD" class="c-card__album-cover">
         </div>
-        <img src="img/pretty-odd.jpg" alt="P!ATD" class="c-card__album-cover">
-      </div>
-      <div class="c-card">
-        <div class="c-card__overlayer">
-          <section class="c-card__content">
-            <h3 class="c-card__song-title">Polly</h3>
-            <h4 class="c-card__artist">Nirvana</h4>
-          </section>
+      </a>
+      <a href="pages/nirvana_polly.html">
+        <div class="c-card">
+          <div class="c-card__overlayer c-card__overlayer--fifth">
+            <section class="c-card__content">
+              <h3 class="c-card__song-title">Polly</h3>
+              <h4 class="c-card__artist">Nirvana</h4>
+            </section>
+          </div>
+          <img src="img/nevermind.jpg" alt="Polly Nirvana" class="c-card__album-cover">
         </div>
-        <img src="img/nevermind.jpg" alt="Polly Nirvana" class="c-card__album-cover">
-      </div>
-      <div class="c-card">
-        <div class="c-card__overlayer">
-          <section class="c-card__content">
-            <h3 class="c-card__song-title">Wasting My Hate</h3>
-            <h4 class="c-card__artist">Metallica</h4>
-          </section>
-        </div>
-        <img src="img/load.jpg" alt="Wasting My Hate Metallica" class="c-card__album-cover">
-    </article>
+      </a>
+      <a href="pages/metallica_wasting-my-hate.html">
+        <div class="c-card">
+          <div class="c-card__overlayer c-card__overlayer--sixth">
+            <section class="c-card__content">
+              <h3 class="c-card__song-title">Wasting My Hate</h3>
+              <h4 class="c-card__artist">Metallica</h4>
+            </section>
+          </div>
+          <img src="img/load.jpg" alt="Wasting My Hate Metallica" class="c-card__album-cover">
+      </article>
+      </a>
   </main>
 
   <!-- Footer -->
@@ -81,28 +93,5 @@
     </section>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
-  <script>
-  const colorThief = new ColorThief();
-  const img = document.querySelectorAll('.c-card__album-cover');
-  const overlayer = document.querySelectorAll('.c-card__overlayer');
-
-  img.forEach((el, index) => {
-    let color = 0;
-    if (el.complete) {
-      color = colorThief.getColor(el);
-    }
-    else {
-      el.addEventListener('load', () => {
-        color = colorThief.getColor(el);
-      })
-    }
-
-    const yiq = ((color[0]*299)+(color[1]*587)+(color[2]*114))/1000;
-    overlayer[index].style.color = yiq >= 128 ? 'black' : 'white';
-
-    overlayer[index].style.background = `rgb(${color.join(', ')})`;
-  });
-  </script>
 </body>
 </html>

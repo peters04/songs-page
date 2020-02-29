@@ -11,10 +11,18 @@
     opacity: 0;
     transition: opacity 0.3s cubic-bezier(.55,.09,.68,.53);
     border-radius: 5px;
+    color: $white;
 
     &:hover {
       opacity: 0.8;
     }
+
+    &--first { background: #341f19; }
+    &--second { background: #2e211a; }
+    &--third { background: #22261e; }
+    &--fourth { background: #4e3a38; }
+    &--fifth { background: #107aad; }
+    &--sixth { background: #d87b68; }
   }
 
   &__album-cover {

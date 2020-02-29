@@ -1,0 +1,9 @@
+.c-lyrics {
+  width: 25vw;
+
+  &__verse {
+    margin: 3em;
+
+    &:first-of-type { margin-top: 0 }
+  }
+}

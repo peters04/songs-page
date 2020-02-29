@@ -13,6 +13,19 @@
   margin-bottom: 3em;
 }
 
+.l-song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 2em;
+  }
+}
+
 .l-footer {
   text-align: center;
 }

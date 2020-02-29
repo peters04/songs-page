@@ -15,14 +15,8 @@ const buildCSS = () => {
     .pipe(gulp.dest('./dist'));
 }
 
-const minifyCss = () => {
-  return gulp.src('./dist/*.css')
-    .pipe(cleanCSS())
-    .pipe(gulp.dest('dist'));
-}
-
 const htmlCopy = () => {
-  return gulp.src('./src/*html')
+  return gulp.src('./src/**/*html')
     .pipe(gulp.dest('./dist'));
 }
 
@@ -46,7 +40,7 @@ const serve = () => {
   });
 
   gulp.watch('./src/scss/**/*scss', style);
-  gulp.watch('./src/*html').on('change', browserSync.reload);
+  gulp.watch('./src/**/*html').on('change', browserSync.reload);
 }
 
 exports.serve = serve;

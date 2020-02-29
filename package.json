@@ -11,9 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "browserify": "^16.5.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.2.0",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "colorthief": "^2.3.0",
+    "node-vibrant": "^3.1.5"
   }
 }
