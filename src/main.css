@@ -15,7 +15,7 @@ html, body {
   margin-bottom: 3em; }
 
 .l-cards {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: grid;
   grid-gap: 1em;
@@ -55,7 +55,7 @@ html, body {
     .c-card__overlayer--second {
       background: #2e211a; }
     .c-card__overlayer--third {
-      background: #110e16; }
+      background: #22261e; }
     .c-card__overlayer--fourth {
       background: #4e3a38; }
     .c-card__overlayer--fifth {
